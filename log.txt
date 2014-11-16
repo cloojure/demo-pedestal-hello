@@ -1,0 +1,95 @@
+2014-Nov-15 20:06:58 -0800 localhost.localdomain INFO [demo-pedestal-hello.server] - 
+Creating your server...
+2014-Nov-15 20:07:10 -0800 localhost.localdomain INFO [demo-pedestal-hello.service] - #awt log-it enter:  {:io.pedestal.http.impl.servlet-interceptor/async-supported? true, :remote-addr 127.0.0.1, :servlet-context #<Context ServletContext@o.e.j.s.ServletContextHandler@172f88b1{/,null,AVAILABLE}>, :servlet-response #<Response HTTP/1.1 0 
+Date: Sun, 16 Nov 2014 04:07:10 GMT
+
+>, :servlet-path , :servlet #<FnServlet io.pedestal.http.servlet.FnServlet@41e5cfc>, :headers {cache-control max-age=0, accept text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8, connection keep-alive, user-agent Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36, host localhost:8080, accept-encoding gzip,deflate,sdch, accept-language en-US,en;q=0.8}, :server-port 8080, :servlet-request #<Request (GET /)@52669194 org.eclipse.jetty.server.Request@323ab0a>, :io.pedestal.http.impl.servlet-interceptor/protocol HTTP/1.1, :path-info /, :url-for #<route$url_for_routes$fn__7224 io.pedestal.http.route$url_for_routes$fn__7224@54a3e905>, :uri /, :server-name localhost, :query-string nil, :path-params {}, :body #<HttpInputOverHTTP HttpInputOverHTTP@d7a0384>, :scheme :http, :request-method :get, :context-path }
+2014-Nov-15 20:07:10 -0800 localhost.localdomain INFO [demo-pedestal-hello.service] - home-page: request= {:io.pedestal.http.impl.servlet-interceptor/async-supported? true, :remote-addr 127.0.0.1, :servlet-context #<Context ServletContext@o.e.j.s.ServletContextHandler@172f88b1{/,null,AVAILABLE}>, :servlet-response #<Response HTTP/1.1 0 
+Date: Sun, 16 Nov 2014 04:07:10 GMT
+
+>, :servlet-path , :servlet #<FnServlet io.pedestal.http.servlet.FnServlet@41e5cfc>, :headers {cache-control max-age=0, accept text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8, connection keep-alive, user-agent Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36, host localhost:8080, accept-encoding gzip,deflate,sdch, accept-language en-US,en;q=0.8}, :server-port 8080, :servlet-request #<Request (GET /)@52669194 org.eclipse.jetty.server.Request@323ab0a>, :io.pedestal.http.impl.servlet-interceptor/protocol HTTP/1.1, :path-info /, :url-for #<route$url_for_routes$fn__7224 io.pedestal.http.route$url_for_routes$fn__7224@54a3e905>, :uri /, :server-name localhost, :query-string nil, :path-params {}, :body #<HttpInputOverHTTP HttpInputOverHTTP@d7a0384>, :scheme :http, :request-method :get, :context-path }
+2014-Nov-15 20:07:11 -0800 localhost.localdomain INFO [demo-pedestal-hello.service] - home-page result: #<HashSet [[Olive Green], [Yellowish White], [True Mint], [Orange Red]]>
+2014-Nov-15 20:07:11 -0800 localhost.localdomain INFO [demo-pedestal-hello.service] - #awt log-it exit:  {:status 200, :headers {Content-Type text/html;charset=UTF-8}, :body Hello Colors! [["Olive Green"], ["Yellowish White"], ["True Mint"], ["Orange Red"]]}
+2014-Nov-15 20:07:14 -0800 localhost.localdomain INFO [demo-pedestal-hello.service] - #awt log-it enter:  {:io.pedestal.http.impl.servlet-interceptor/async-supported? true, :remote-addr 127.0.0.1, :servlet-context #<Context ServletContext@o.e.j.s.ServletContextHandler@172f88b1{/,null,AVAILABLE}>, :servlet-response #<Response HTTP/1.1 0 
+Date: Sun, 16 Nov 2014 04:07:14 GMT
+
+>, :servlet-path , :servlet #<FnServlet io.pedestal.http.servlet.FnServlet@41e5cfc>, :headers {cache-control max-age=0, accept text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8, connection keep-alive, user-agent Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36, host localhost:8080, accept-encoding gzip,deflate,sdch, accept-language en-US,en;q=0.8}, :server-port 8080, :servlet-request #<Request (GET /error)@52669194 org.eclipse.jetty.server.Request@323ab0a>, :io.pedestal.http.impl.servlet-interceptor/protocol HTTP/1.1, :path-info /error, :url-for #<route$url_for_routes$fn__7224 io.pedestal.http.route$url_for_routes$fn__7224@7e83566>, :uri /error, :server-name localhost, :query-string nil, :path-params {}, :body #<HttpInputOverHTTP HttpInputOverHTTP@d7a0384>, :scheme :http, :request-method :get, :context-path }
+2014-Nov-15 20:07:14 -0800 localhost.localdomain INFO [demo-pedestal-hello.service] - #awt catch-excps ctx {:response nil, :request {:io.pedestal.http.impl.servlet-interceptor/async-supported? true, :remote-addr 127.0.0.1, :servlet-context #<Context ServletContext@o.e.j.s.ServletContextHandler@172f88b1{/,null,AVAILABLE}>, :servlet-response #<Response HTTP/1.1 0 
+Date: Sun, 16 Nov 2014 04:07:14 GMT
+
+>, :servlet-path , :servlet #<FnServlet io.pedestal.http.servlet.FnServlet@41e5cfc>, :headers {cache-control max-age=0, accept text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8, connection keep-alive, user-agent Mozilla/5.0 (X11; Linux i686 (x86_64)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36, host localhost:8080, accept-encoding gzip,deflate,sdch, accept-language en-US,en;q=0.8}, :server-port 8080, :servlet-request #<Request (GET /error)@52669194 org.eclipse.jetty.server.Request@323ab0a>, :io.pedestal.http.impl.servlet-interceptor/protocol HTTP/1.1, :path-info /error, :url-for #<route$url_for_routes$fn__7224 io.pedestal.http.route$url_for_routes$fn__7224@7e83566>, :uri /error, :server-name localhost, :query-string nil, :path-params {}, :body #<HttpInputOverHTTP HttpInputOverHTTP@d7a0384>, :scheme :http, :request-method :get, :context-path }, :bindings {#'io.pedestal.http.route/*url-for* #<route$url_for_routes$fn__7224 io.pedestal.http.route$url_for_routes$fn__7224@7e83566>}, :enter-async [#<servlet_interceptor$start_servlet_async io.pedestal.http.impl.servlet_interceptor$start_servlet_async@d105e16>], :servlet-response #<Response HTTP/1.1 0 
+Date: Sun, 16 Nov 2014 04:07:14 GMT
+
+>, :route {:matcher #<route$matcher$fn__7134 io.pedestal.http.route$matcher$fn__7134@e179eb1>, :route-name :demo-pedestal-hello.service/error-page, :path-re #"/\Qerror\E", :method :get, :path /error, :path-parts [ error], :path-params [], :interceptors [#io.pedestal.impl.interceptor.Interceptor{:name :demo-pedestal-hello.service/log-it, :enter #<interceptor$middleware$fn__7062 io.pedestal.interceptor$middleware$fn__7062@767f6dc1>, :leave #<interceptor$middleware$fn__7064 io.pedestal.interceptor$middleware$fn__7064@1aedcf3f>, :error nil} #io.pedestal.impl.interceptor.Interceptor{:name nil, :enter nil, :leave nil, :error #<service$fn__12188 demo_pedestal_hello.service$fn__12188@6d7b60e5>} #io.pedestal.impl.interceptor.Interceptor{:name :io.pedestal.http.body-params/body-params, :enter #<interceptor$on_request$fn__7007 io.pedestal.interceptor$on_request$fn__7007@5893d495>, :leave nil, :error nil} #io.pedestal.impl.interceptor.Interceptor{:name :io.pedestal.http/html-body, :enter nil, :leave #<interceptor$on_response$fn__7024 io.pedestal.interceptor$on_response$fn__7024@3624be8a>, :error nil} #io.pedestal.impl.interceptor.Interceptor{:name :demo-pedestal-hello.service/error-page, :enter #<interceptor$before$fn__6965 io.pedestal.interceptor$before$fn__6965@47016a60>, :leave nil, :error nil}]}, :servlet #<FnServlet io.pedestal.http.servlet.FnServlet@41e5cfc>, :servlet-request #<Request (GET /error)@52669194 org.eclipse.jetty.server.Request@323ab0a>, :io.pedestal.impl.interceptor/terminators (#<servlet_interceptor$terminator_inject$fn__9123 io.pedestal.http.impl.servlet_interceptor$terminator_inject$fn__9123@2089bffd>), :io.pedestal.impl.interceptor/execution-id 2, :url-for #<route$url_for_routes$fn__7224 io.pedestal.http.route$url_for_routes$fn__7224@7e83566>, :servlet-config #<Config org.eclipse.jetty.servlet.ServletHolder$Config@64eff1b8>, :io.pedestal.impl.interceptor/stack (#io.pedestal.impl.interceptor.Interceptor{:name :demo-pedestal-hello.service/log-it, :enter #<interceptor$middleware$fn__7062 io.pedestal.interceptor$middleware$fn__7062@767f6dc1>, :leave #<interceptor$middleware$fn__7064 io.pedestal.interceptor$middleware$fn__7064@1aedcf3f>, :error nil} #io.pedestal.impl.interceptor.Interceptor{:name :io.pedestal.http.route/router, :enter #<interceptor$before$fn__6965 io.pedestal.interceptor$before$fn__6965@5b20de20>, :leave nil, :error nil} #io.pedestal.impl.interceptor.Interceptor{:name :io.pedestal.http.secure-headers/secure-headers, :enter nil, :leave #<interceptor$after$fn__6981 io.pedestal.interceptor$after$fn__6981@6f89d217>, :error nil} #io.pedestal.impl.interceptor.Interceptor{:name :io.pedestal.http.ring-middlewares/resource, :enter #<interceptor$before$fn__6965 io.pedestal.interceptor$before$fn__6965@74709c6f>, :leave nil, :error nil} #io.pedestal.impl.interceptor.Interceptor{:name :io.pedestal.http.route/method-param, :enter #<interceptor$on_request$fn__7007 io.pedestal.interceptor$on_request$fn__7007@29fc9d1f>, :leave nil, :error nil} #io.pedestal.impl.interceptor.Interceptor{:name :io.pedestal.http.route/query-params, :enter #<interceptor$on_request$fn__7007 io.pedestal.interceptor$on_request$fn__7007@2c2b4e20>, :leave nil, :error nil} #io.pedestal.impl.interceptor.Interceptor{:name :io.pedestal.http.ring-middlewares/content-type-interceptor, :enter nil, :leave #<interceptor$after$fn__6981 io.pedestal.interceptor$after$fn__6981@d9338d8>, :error nil} #io.pedestal.impl.interceptor.Interceptor{:name :io.pedestal.http/not-found, :enter nil, :leave #<interceptor$after$fn__6981 io.pedestal.interceptor$after$fn__6981@7df05ee1>, :error nil} #io.pedestal.impl.interceptor.Interceptor{:name :io.pedestal.http/log-request, :enter #<interceptor$on_request$fn__7007 io.pedestal.interceptor$on_request$fn__7007@30292025>, :leave nil, :error nil} #io.pedestal.impl.interceptor.Interceptor{:name :io.pedestal.http.impl.servlet-interceptor/ring-response, :enter nil, :leave #<servlet_interceptor$leave_ring_response io.pedestal.http.impl.servlet_interceptor$leave_ring_response@524497ae>, :error #<servlet_interceptor$error_ring_response io.pedestal.http.impl.servlet_interceptor$error_ring_response@546df9cb>} #io.pedestal.impl.interceptor.Interceptor{:name :io.pedestal.http.impl.servlet-interceptor/stylobate, :enter #<servlet_interceptor$enter_stylobate io.pedestal.http.impl.servlet_interceptor$enter_stylobate@4d9abf61>, :leave #<servlet_interceptor$leave_stylobate io.pedestal.http.impl.servlet_interceptor$leave_stylobate@3d17ae7c>, :error #<servlet_interceptor$error_stylobate io.pedestal.http.impl.servlet_interceptor$error_stylobate@335fbb40>} #io.pedestal.impl.interceptor.Interceptor{:name :io.pedestal.http.impl.servlet-interceptor/terminator-injector, :enter #<interceptor$before$fn__6965 io.pedestal.interceptor$before$fn__6965@484dc0e8>, :leave nil, :error nil})}
+2014-Nov-15 20:07:14 -0800 localhost.localdomain INFO [demo-pedestal-hello.service] - #awt catch-excps excp #<ArithmeticException java.lang.ArithmeticException: Divide by zero>
+2014-Nov-15 20:07:14 -0800 localhost.localdomain WARN [demo-pedestal-hello.service] - catch-errors err-str java.lang.ArithmeticException: Divide by zero
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93)
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:313)
+	at demo_pedestal_hello.service$fn__12188.invoke(service.clj:45)
+	at io.pedestal.impl.interceptor$try_error.invoke(interceptor.clj:59)
+	at io.pedestal.impl.interceptor$leave_all_with_binding.invoke(interceptor.clj:165)
+	at io.pedestal.impl.interceptor$leave_all$fn__6865.invoke(interceptor.clj:182)
+	at clojure.lang.AFn.applyToHelper(AFn.java:152)
+	at clojure.lang.AFn.applyTo(AFn.java:144)
+	at clojure.core$apply.invoke(core.clj:626)
+	at clojure.core$with_bindings_STAR_.doInvoke(core.clj:1864)
+	at clojure.lang.RestFn.invoke(RestFn.java:425)
+	at io.pedestal.impl.interceptor$leave_all.invoke(interceptor.clj:180)
+	at io.pedestal.impl.interceptor$execute.invoke(interceptor.clj:270)
+	at io.pedestal.http.impl.servlet_interceptor$interceptor_service_fn$fn__9144.invoke(servlet_interceptor.clj:401)
+	at io.pedestal.http.servlet.FnServlet.service(servlet.clj:28)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:751)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:566)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1111)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:498)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1045)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:98)
+	at org.eclipse.jetty.server.Server.handle(Server.java:461)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:284)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:244)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:534)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:607)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:536)
+	at java.lang.Thread.run(Thread.java:745)
+
+2014-Nov-15 20:07:14 -0800 localhost.localdomain INFO [demo-pedestal-hello.service] - #awt log-it exit:  {:status 500, :body Exception: java.lang.ArithmeticException: Divide by zero
+stacktrace: java.lang.ArithmeticException: Divide by zero
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at clojure.lang.Reflector.invokeMatchingMethod(Reflector.java:93)
+	at clojure.lang.Reflector.invokeNoArgInstanceMember(Reflector.java:313)
+	at demo_pedestal_hello.service$fn__12188.invoke(service.clj:45)
+	at io.pedestal.impl.interceptor$try_error.invoke(interceptor.clj:59)
+	at io.pedestal.impl.interceptor$leave_all_with_binding.invoke(interceptor.clj:165)
+	at io.pedestal.impl.interceptor$leave_all$fn__6865.invoke(interceptor.clj:182)
+	at clojure.lang.AFn.applyToHelper(AFn.java:152)
+	at clojure.lang.AFn.applyTo(AFn.java:144)
+	at clojure.core$apply.invoke(core.clj:626)
+	at clojure.core$with_bindings_STAR_.doInvoke(core.clj:1864)
+	at clojure.lang.RestFn.invoke(RestFn.java:425)
+	at io.pedestal.impl.interceptor$leave_all.invoke(interceptor.clj:180)
+	at io.pedestal.impl.interceptor$execute.invoke(interceptor.clj:270)
+	at io.pedestal.http.impl.servlet_interceptor$interceptor_service_fn$fn__9144.invoke(servlet_interceptor.clj:401)
+	at io.pedestal.http.servlet.FnServlet.service(servlet.clj:28)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:751)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:566)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1111)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:498)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1045)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:98)
+	at org.eclipse.jetty.server.Server.handle(Server.java:461)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:284)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:244)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:534)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:607)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:536)
+	at java.lang.Thread.run(Thread.java:745)
+}
